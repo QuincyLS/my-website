@@ -1,0 +1,939 @@
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  .wrapper {
+    flex-direction: column;
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f6fb; /* Abu muda background */
+  color: #222;
+  line-height: 1.6;
+}
+
+.wrapper {
+  max-width: 700px;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e0e0e0; /* latar belakang halaman */
+}
+
+.container {
+  min-height: 100vh; /* penuh dari atas sampai bawah */
+  background-color: #ffffff; /* warna putih di belakang */
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px; /* opsional: agar ada ruang kiri-kanan */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* opsional: efek bayangan */
+}
+
+.hero {
+  background: linear-gradient(to bottom, #8e0038, #57002a);
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffeb3b;
+  margin-bottom: 10px;
+}
+
+.subproof {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.image-combined img {
+  width: 80%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.problems {
+  padding: 24px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.problems h2 {
+  color: #b3003c;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.problems ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.problems li {
+  background: #f8f8f8;
+  margin-bottom: 12px;
+  padding: 12px 16px;
+  border-left: 6px solid #e53935;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.alert-box {
+  background-color: #8b0015; /* Merah gelap */
+  color: white;
+  font-weight: bold;
+  border-radius: 6px; /* diperkecil dari 8px */
+  padding: 12px 16px; /* padding sedikit lebih ramping */
+  margin: 20px auto; /* tengah horizontal */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* shadow diperkecil */
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: center;
+  max-width: 600px; /* agar tidak terlalu lebar di layar besar */
+  width: 90%; /* responsif di mobile */
+}
+
+.transform-section {
+  text-align: center;
+  padding: 24px 20px;
+  background-color: #ffffff;
+}
+
+.transform-section h2 {
+  color: #900000;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.image-box img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.guarantee-box {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.guarantee-box h3 {
+  color: #003366;
+  font-size: 16px;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.guarantee-box ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.guarantee-box li {
+  margin-bottom: 12px;
+  font-size: 15px;
+  display: flex;
+  align-items: start;
+}
+
+.limited-offer {
+  background: linear-gradient(to right, #8b0000, #5a0071);
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 0;
+  margin-top: 20px;
+}
+
+.limited-offer h2 {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.limited-offer p {
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.countdown div {
+  background: #6d0014;
+  padding: 12px 18px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.countdown span {
+  font-size: 22px;
+  display: block;
+}
+
+.countdown small {
+  font-size: 12px;
+  display: block;
+  margin-top: 4px;
+  text-transform: uppercase;
+}
+
+.after-text {
+  font-size: 14px;
+  color: #fff;
+}
+
+.scientific-proof {
+  padding: 30px 20px;
+  background-color: #c3c3c320;
+  text-align: center;
+}
+
+.scientific-proof h2 {
+  color: #8a0000;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+
+.proof-box {
+  background-color: #fdfdfd00;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  text-align: left;
+  max-width: 600px;
+  margin: auto;
+}
+
+.proof-box h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #002244;
+  margin-bottom: 12px;
+}
+
+.proof-box p {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.proof-box img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.boxpeneliti {
+  margin-bottom: auto;
+  background-color: #bdbaba43;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+}
+
+
+.proof-stats {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto 0;
+  max-width: 600px;
+  text-align: left;
+}
+
+.proof-stats h4 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #002244;
+}
+
+.proof-stats ul {
+  padding-left: 20px;
+}
+
+.proof-stats li {
+  font-size: 14px;
+  margin-bottom: 10px;
+  list-style: none;
+  position: relative;
+  padding-left: 24px;
+}
+
+.proof-stats li::before {
+  content: '✔';
+  position: absolute;
+  left: 0;
+  color: #28a745;
+  font-weight: bold;
+}
+/* Container for the entire quote block */
+
+/* Style for the quote text */
+.quote-text {
+    font-size: 1.2em; /* Adjust font size as needed */
+    line-height: 1.6; /* Improve readability */
+    font-style: italic; /* Italicize the quote */
+    color: #333333; /* Darker text color */
+    margin-bottom: 20px; /* Space between quote and author */
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+
+/* Style for the author's name */
+.quote-author {
+    font-size: 1.1em; /* Slightly smaller than quote text */
+    color: #555555; /* Slightly lighter color */
+    font-weight: bold; /* Bold the author's name */
+    margin-top: 15px; /* Space above author's name */
+}
+
+
+/* If you want to target the "Dr. Hendra Wijaya" part specifically for bolding */
+.quote-author strong {
+    font-weight: bold;
+    color: #333333;
+}
+
+.comparison-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px; /* Adjust max-width as needed */
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+h2 {
+    color: #4a4a4a;
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* Membatasi lebar kolom */
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ccc;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Header Styling */
+thead th {
+    background-color: #920000; /* Dark red from image */
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.1em;
+    padding: 18px 10px; /* Slightly more padding for headers */
+}
+
+thead th:first-child {
+    border-top-left-radius: 8px; /* Rounded top-left corner for header */
+}
+
+thead th:last-child {
+    border-top-right-radius: 8px; /* Rounded top-right corner for header */
+}
+
+/* Body Row Styling */
+tbody tr:nth-child(even) {
+    background-color: #a9a9a923; /* Subtle stripe for even rows */
+}
+
+tbody td {
+    font-size: 1em;
+    color: #333333;
+}
+
+/* Specific Cell Colors based on outcome */
+.success {
+    color: #28a745; /* Green for success */
+    font-weight: 600;
+}
+
+.danger {
+    color: #dc3545; /* Red for danger */
+    font-weight: 600;
+}
+
+.warning {
+    color: #ffc107; /* Orange for warning */
+    font-weight: 600;
+}
+
+/* Icon Styling */
+.icon {
+    margin-right: 5px; /* Space between icon and text */
+    font-size: 1.2em; /* Make icons slightly larger */
+    vertical-align: middle; /* Align icons vertically */
+}
+
+/* Adjustments for the specific icon display */
+.success .icon {
+    color: #28a745; /* Ensure icon is green */
+}
+.danger .icon {
+    color: #dc3545; /* Ensure icon is red */
+}
+.warning .icon {
+    color: #ffc107; /* Ensure icon is orange */
+}
+
+/* Make sure the "Metode" column text is left-aligned */
+tbody td:first-child {
+    text-align: left;
+    font-weight: 600;
+    color: #333333; /* Darker color for the method names */
+}
+
+.benefits-section {
+  padding: 30px 20px;
+  background-color: #c3c3c320;
+  text-align: center;
+    
+}
+
+.benefits-section .section-title { /* Judul "MANFAAT UTAMA" */
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #920000; /* Warna merah gelap */
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.benefits-list {
+    display: flex;
+    flex-direction: column; /* Item disusun vertikal */
+    gap: 20px; /* Jarak antar item manfaat */
+}
+
+.benefit-item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    display: flex; /* Untuk ikon dan konten sejajar */
+    align-items: center; /* Vertikal tengah */
+    text-align: left; /* Teks rata kiri di dalam item */
+    font-family: Arial, sans-serif; /* Pastikan font Arial */
+}
+
+.benefit-icon-circle {
+    min-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #920000; /* Merah gelap untuk lingkaran ikon */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.benefit-icon-circle i {
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.benefit-content h3 {
+    font-size: 1.1em;
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.benefit-content p {
+    font-size: 0.95em;
+    color: #666666;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.testimoni {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.testimoni h2 {
+  color: #8b0015;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.testimonial-card {
+  background: #f6f7ff;
+  border-left: 5px solid #8b0015;
+  border-radius: 10px;
+  max-width: 650px;
+  margin: 0 auto 24px auto;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  border-radius: 50%;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stars {
+  color: #ffc107;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.testimonial-card p {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.6;
+}
+.bonus-section {
+  background: linear-gradient(to bottom, #7a0040, #510065);
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.bonus-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.bonus-section p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.bonus-card {
+  background-color: #fffbea;
+  color: #42002f;
+  border: 3px solid #ffc107;
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin: 16px auto;
+  max-width: 650px;
+  text-align: left;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.bonus-number {
+  background-color: #ffa000;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 6px;
+}
+
+.bonus-card h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 6px;
+  text-transform: uppercase;
+  color: #8b0015;
+}
+
+.bonus-card p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.bonus-value {
+  font-size: 14px;
+  color: #ccc;
+  font-weight: bold;
+}
+.price-offer-section {
+  text-align: center;
+  background-color: #9797971e;
+  padding: 40px 20px;
+  color: #222;
+  font-family: 'Arial', sans-serif;
+}
+
+.normal-price {
+  font-weight: bold;
+  color: #444;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+  font-size: 26px;
+  color: #999;
+  margin: 0 0 20px;
+}
+
+.special-price-label {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  color: #333;
+}
+
+.special-price {
+  font-size: 40px;
+  font-weight: bold;
+  color: #8b0015;
+  margin: 6px 0;
+}
+
+.discount {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.product-image img {
+  width: 80%;
+  max-width: 350px;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 14px 28px;
+  background: linear-gradient(to right, #f9c000, #ff4081);
+  color: #5d005d;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 40px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.cta-button:hover {
+  background: linear-gradient(to right, #ffb300, #ec407a);
+  color: #000;
+}
+
+.guarantee {
+  margin-top: 14px;
+  font-size: 14px;
+  color: #005500;
+  font-weight: bold;
+}
+
+.badges {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 8px;
+}
+
+.badges span {
+  background-color: #8b0015;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.faq-section {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
+  margin-top: 40px;
+}
+
+.faq-heading {
+  text-align: center;
+  color: #8b0000;
+  margin-bottom: 30px;
+}
+
+.faq-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #eee;
+}
+
+.faq-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  color: #222;
+  list-style: none;
+}
+
+.faq-summary i {
+  transition: transform 0.3s ease;
+}
+
+.faq-item[open] .faq-summary i {
+  transform: rotate(180deg);
+  color: #a1213c; /* text-burgundy */
+}
+
+.faq-answer {
+  margin-top: 15px;
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+  text-align: left;
+}
+.garansi-section {
+  background-color: #fff;
+  border: 2px dashed #d9534f;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+  margin-top: 40px;
+}
+
+.garansi-icon i {
+  font-size: 48px;
+  color: #d9534f;
+  margin-bottom: 15px;
+}
+
+.garansi-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #d9534f;
+  margin-bottom: 15px;
+}
+
+.garansi-text {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif
+}
+
+.garansi-note {
+  font-weight: bold;
+  font-size: 15px;
+  color: #222;
+  text-transform: uppercase;
+}
+.pembayaran-section {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+  margin-top: 40px;
+  text-align: center;
+}
+
+.pembayaran-section h2 {
+  color: #3178c6;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.pembayaran-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 25px;
+}
+
+.pembayaran-list li {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.wa-button {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #25D366;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.wa-button i {
+  margin-right: 8px;
+}
+
+.wa-button:hover {
+  background-color: #1ebd5f;
+}
+.pembayaran-section {
+  background: linear-gradient(to bottom right, #f9fcff, #eef4ff);
+  padding: 40px 30px;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.pembayaran-section:hover {
+  transform: translateY(-4px);
+}
+
+.pembayaran-section h2 {
+  font-size: 24px;
+  color: #234a99;
+  margin-bottom: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.pembayaran-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 30px;
+}
+
+.pembayaran-list li {
+  position: relative;
+  font-size: 17px;
+  color: #333;
+  padding-left: 28px;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.pembayaran-list li::before {
+  content: "\f00c"; /* Font Awesome check icon */
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  position: absolute;
+  left: 0;
+  top: 2px;
+  color: #25d366;
+}
+
+.wa-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 22px;
+  background: linear-gradient(135deg, #25d366, #1ebd5f);
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 50px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wa-button i {
+  font-size: 20px;
+}
+
+.wa-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+@media (max-width: 600px) {
+  .pembayaran-section {
+    padding: 30px 20px;
+  }
+
+  .pembayaran-section h2 {
+    font-size: 20px;
+  }
+
+  .pembayaran-list li {
+    font-size: 16px;
+  }
+
+  .wa-button {
+    font-size: 15px;
+    padding: 12px 18px;
+  }
+}
+
